@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - {t: '&to_layer_0 AT', h: '4'}
+  - {t: '&to_layer_0 LANGUAGE_2', h: '4'}
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - /
   - LEFT CONTROL
   - LEFT WIN
-  - Alt+F16
+  - LEFT ALT
   - {t: '&to_layer_0 ESC', h: '4'}
   - {t: '&to_layer_0 ENTER', h: '2'}
   - {t: '&to_layer_0 LANG2', h: '1'}
