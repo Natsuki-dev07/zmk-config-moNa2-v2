@@ -77,7 +77,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E        &kp R                 &kp T                                                        &kp Y          &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D        &kp F                 &kp G                                             &kp F13    &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp A             &kp S         &kp D        &kp F                 &kp G                                             &kp HOME   &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C        &kp V                 &kp B                   &kp TAB                   &kp MINUS  &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LC(LCTRL)     &kp LEFT_WIN  &kp LA(F16)  &lt_to_layer_0 4 ESC  &lt_to_layer_0 2 ENTER  &lt_to_layer_0 1 LANG2    &kp SPACE  &kp BACKSPACE                             &kp RS(LEFT_ALT)
             >;
@@ -87,10 +87,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp BACKSLASH
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans        &trans                &trans                 &trans        &kp PIPE
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans                                                                   &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                       &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
+&trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &kp END    &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp BACKSLASH
+&trans        &trans        &trans            &mkp MCLK          &trans        &trans    &trans     &trans        &trans                &trans                 &trans        &kp PIPE
+&trans        &trans        &trans            &mkp MB1           &mkp MB2      &trans    &kp ENTER  &kp DEL                                                                  &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
+&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &bt BT_SEL 0
+&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_SEL 1
+&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &bt BT_SEL 2
+&trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &bt BT_SEL 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
