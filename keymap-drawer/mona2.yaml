@@ -34,7 +34,7 @@ layers:
   - ','
   - .
   - /
-  - Ctl+LCTRL
+  - LEFT CONTROL
   - LEFT WIN
   - Alt+F16
   - {t: '&to_layer_0 ESC', h: '4'}
@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 LANG2', h: '1'}
   - SPACE
   - BACKSPACE
-  - Sft+LEFT ALT
+  - RIGHT SHIFT
   '1':
   - '1'
   - '2'
