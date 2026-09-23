@@ -36,7 +36,7 @@ layers:
   - /
   - LCTRL
   - LEFT WIN
-  - F16
+  - Alt+F16
   - {t: '&to_layer_0 ESC', h: '4'}
   - {t: '&to_layer_0 ENTER', h: '2'}
   - {t: '&to_layer_0 LANG2', h: '1'}
